@@ -18,7 +18,11 @@ class ViewController: UIViewController {
         
         struct BlackjackCard {
             
+            enum Suit: Character {
+                case Spades = "♠️", Hearts = "♥️", Dimonds = "♦️", Clubs = "♣️"
+            }
         }
+        
         
         
         
