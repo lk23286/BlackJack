@@ -49,18 +49,10 @@ class ViewController: UIViewController {
                 if let second = rank.values.second {
                     output += " or \(second)"
                 }
-                
-                
                 return output
-                
-                
             }
             
         }
-        
-        
-        
-        
         
     }
 
