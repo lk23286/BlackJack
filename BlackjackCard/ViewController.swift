@@ -16,6 +16,9 @@ class ViewController: UIViewController {
         
         // prepaired for programing
         
+        struct BlackjackCard {
+            
+        }
         
         
         
