@@ -27,6 +27,17 @@ class ViewController: UIViewController {
                 struct Values {
                     let first: Int, second: Int?
                 }
+                var values: Values {
+                    switch self {
+                    case .Ace:
+                        return Values(first: 1, second: 11)
+                    case .Jack, .Queen, .King:
+                        return Values(first: 10, second: nil)
+                    default:
+                        return Values(first: self.rawValue, second: nil)
+                        
+                    }
+                }
             }
         }
         
