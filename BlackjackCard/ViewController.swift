@@ -38,7 +38,7 @@ class ViewController: UIViewController {
                         
                     }
                 }
-                // BalckjackCards properties and methods
+                // BalckjackCards properties and methods .
            
                 
             }
