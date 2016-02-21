@@ -42,7 +42,19 @@ class ViewController: UIViewController {
            
                 
             }
-                 let rank: Rank, suit: Suit
+            let rank: Rank, suit: Suit
+            var description: String {
+                var output = "Suit is \(suit.rawValue),"
+                output += " value is \(rank.values.first)"
+                if let second = rank.values.second {
+                    output += " or \(second)"
+                }
+                
+                
+                return output
+                
+                
+            }
             
         }
         
