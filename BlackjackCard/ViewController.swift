@@ -24,7 +24,9 @@ class ViewController: UIViewController {
             enum Rank: Int {
                 case Two = 2, Three, four, Five, Six, Seven, Eight, Nine
                 case Jack, Queen, King, Ace
-                
+                struct Values {
+                    let first: Int, second: Int?
+                }
             }
         }
         
