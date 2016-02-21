@@ -38,7 +38,12 @@ class ViewController: UIViewController {
                         
                     }
                 }
+                // BalckjackCards properties and methods
+           
+                
             }
+                 let rank: Rank, suit: Suit
+            
         }
         
         
