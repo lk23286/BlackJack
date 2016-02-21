@@ -21,6 +21,11 @@ class ViewController: UIViewController {
             enum Suit: Character {
                 case Spades = "♠️", Hearts = "♥️", Dimonds = "♦️", Clubs = "♣️"
             }
+            enum Rank: Int {
+                case Two = 2, Three, four, Five, Six, Seven, Eight, Nine
+                case Jack, Queen, King, Ace
+                
+            }
         }
         
         
